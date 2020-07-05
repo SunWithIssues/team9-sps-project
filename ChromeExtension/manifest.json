@@ -4,5 +4,14 @@
     "manifest_version": 2,
     "background": {        
         "scripts": ["background.js"]
+    },
+    "page_action": {
+        "default_popup": "popup.html", 
+        "default_icon": { 
+            "260": "sustainaBrowseLogo.png"        
+        }    
+    },    
+    "icons": {
+        "500": "sustainaBrowse.png"
     }
 }
