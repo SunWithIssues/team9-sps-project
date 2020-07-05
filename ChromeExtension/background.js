@@ -1,4 +1,4 @@
 chrome.runtime.onInstalled.addListener(
-    function() {console.log("The color is green.");
+    function() {console.log("Testing my first chrome extension");
     });
   
