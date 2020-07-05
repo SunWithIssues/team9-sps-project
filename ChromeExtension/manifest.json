@@ -6,7 +6,13 @@
       "persistent": false
     },
     "page_action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "260": "images/sustainaBrowseLogo.png"
+      }
+    },
+    "icons": {
+      "500": "images/sustainaBrowse.png"
     },
     "manifest_version": 2
 }
