@@ -12,6 +12,7 @@
       }
     },
     "icons": {
+      "260": "images/sustainaBrowseLogo.png",
       "500": "images/sustainaBrowse.png"
     },
     "manifest_version": 2
