@@ -1,5 +1,8 @@
 {   "name": "SustainaBrowse",    
     "version": "1.0",    
     "description": "Extension to help users evaluate the sustainability of their purchases and get tips on how to reduce their carbon footprint",    
-    "manifest_version": 2
+    "manifest_version": 2,
+    "background": {        
+        "scripts": ["background.js"]
+    }
 }
