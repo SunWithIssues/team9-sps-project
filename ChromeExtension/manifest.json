@@ -2,8 +2,7 @@
     "version": "1.0",    
     "description": "Extension to help users evaluate the sustainability of their purchases and get tips on how to reduce their carbon footprint",    
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "scripts": ["background.js"]
     },
     "manifest_version": 2
 }
