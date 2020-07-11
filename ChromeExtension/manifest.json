@@ -1,0 +1,19 @@
+{   "name": "SustainaBrowse",    
+    "version": "1.0",    
+    "description": "Extension to help users evaluate the sustainability of their purchases and get tips on how to reduce their carbon footprint",    
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "260": "images/sustainaBrowseLogo.png"
+      }
+    },
+    "icons": {
+      "260": "images/sustainaBrowseLogo.png",
+      "500": "images/sustainaBrowse.png"
+    },
+    "manifest_version": 2
+}
