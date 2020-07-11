@@ -7,6 +7,7 @@
     },
     "page_action": {
       "default_popup": "popup.html",
+      "default_popup": "TipPopUp.html",
       "default_icon": {
         "260": "images/sustainaBrowseLogo.png"
       }
