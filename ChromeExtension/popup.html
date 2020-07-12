@@ -5,7 +5,15 @@
     </head>   
     <body>      
         <button id="aboutButton">About SustainaBrowse</button>
-        <script src="script.js"></script>
-        <br>
+        <button id="tips">View all past tips</button>
+        <button id="articles">View articles</button>
+        <button id="howTo">How to become more sustainable</button>
+        <script>
+            var button = document.getElementById("aboutButton");
+            button.addEventListener("click", function() {
+            // Your code goes here.
+            chrome.tabs.create({url: "https://www.google.ca/"});
+        });
+</script>
     </body>  
 </html>
