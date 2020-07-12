@@ -5,11 +5,9 @@
       "scripts": ["background.js"],
       "persistent": false
     },
-    "page_action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "260": "images/sustainaBrowseLogo.png"
-      }
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon": "images/sustainaBrowseLogo.png"
     },
     "icons": {
       "260": "images/sustainaBrowseLogo.png",
