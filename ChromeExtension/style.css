@@ -23,7 +23,7 @@ body{
 }
 
 button{
-  float:none;
+  float:right;
   border-radius: 20px;
   background-color: #2F4F4F;
   font-color: white;
