@@ -19,9 +19,9 @@ public class DataServlet extends HttpServlet {
   @Override
   public void init() {
     phrases = new ArrayList<>();
-    phrases.add("<a href=https://amazonwatch.org/donate>Amazon Watch</a> is a great site to support the Amazon rainforce ");
-    phrases.add("<a href=https://www.amazonteam.org/>Amazon Team</a> is a great site to support the Amazon rainforce ");
-    phrases.add("<a href=https://www.rainforesttrust.org/>Rainforest Trust</a> is a great site to support the Amazon rainforce ");
+    phrases.add("<a href=https://amazonwatch.org/donate>Amazon Watch</a> is a great site to support the Amazon rainforest ");
+    phrases.add("<a href=https://www.amazonteam.org/>Amazon Team</a> is a great site to support the Amazon rainforest ");
+    phrases.add("<a href=https://www.rainforesttrust.org/>Rainforest Trust</a> is a great site to support the Amazon rainforest ");
     phrases.add("1. Empty spot for link or phrase");
     phrases.add("2. Empty spot for link or phrase");
     phrases.add("3. Empty spot for link or phrase");
