@@ -8,11 +8,11 @@ h1 {
 }
 
 p { 
-color: #2F4F4F; 
-font-family: 'Helvetica Neue', sans-serif; 
-font-size: 15px; 
-font-weight: bold;
-text-align: justify; 
+  color: #2F4F4F; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 15px; 
+  font-weight: bold;
+  text-align: justify; 
 }
 
 body{
@@ -24,6 +24,7 @@ body{
 
 button{
   float:right;
+  margin-right: 
   border-radius: 20px;
   background-color: #2F4F4F;
   font-color: white;
