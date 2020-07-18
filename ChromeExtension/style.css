@@ -20,11 +20,12 @@ body{
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   margin-right:40px;
   margin-left:40px;
+  margin-bottom: 40px
 }
 
 button{
   float:right;
-  margin-right: 15px;
+  margin-right: 40px;
   border-radius: 20px;
   background-color: #2F4F4F;
   font-color: white;
