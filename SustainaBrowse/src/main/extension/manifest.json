@@ -8,11 +8,11 @@
     "browser_action": {
         "default_popup": "popup.html",
         "default_title": "Click here to open menu",
-        "default_icon": "images/sustainaBrowseLogo.png"
+        "default_icon": "imagesForExtension/sustainaBrowseLogo.png"
     },
     "icons": {
-      "260": "images/sustainaBrowseLogo.png",
-      "500": "images/sustainaBrowse.png"
+      "260": "imagesForExtension/sustainaBrowseLogo.png",
+      "500": "imagesForExtention/sustainaBrowse.png"
     },
     "manifest_version": 2
 }
