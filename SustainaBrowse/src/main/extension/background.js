@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',
+document.getElementById('tip-container').addEventListener('click',
     function addRandomTip() {
         const tips = [
             'You miss 100% of the shots you don\'t take', 
@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded',
 
         // Add it to the page.
         const tipContainer = document.getElementById('tip-container');
-        document.getElementById("tipButton").addEventListener("click", function(){
-            tipContainer.innerText = tip;
-        });
+        tipContainer.innerText = tip;
     });
   
   
