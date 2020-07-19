@@ -1,5 +1,5 @@
-document.getElementById('tip-container').addEventListener('click',
-    function addRandomTip() {
+chrome.browserAction.onClicked.addListener(
+    function () {
         const tips = [
             'You miss 100% of the shots you don\'t take', 
             'Sometimes it\'s the very people no one imagines anything of that do the things no one can imagine', 
