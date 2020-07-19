@@ -1,4 +1,4 @@
-chrome.browserAction.onClicked.addListener(getRandomTip());
+chrome.browserAction.onClicked.addListener(getRandomTip);
     
 function test(){
     console.log("testing");
