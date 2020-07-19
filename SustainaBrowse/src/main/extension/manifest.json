@@ -10,5 +10,9 @@
         "default_title": "Click here to open menu",
         "default_icon": "imagesForExtension/sustainaBrowseLogo.png"
     },
+    "icon":{
+        "logo": "imagesForExtension/sustainaBrowseLogo.png",
+        "with_title": "imagesForExtension/sustainaBrowse.png"
+    },
     "manifest_version": 2
 }
