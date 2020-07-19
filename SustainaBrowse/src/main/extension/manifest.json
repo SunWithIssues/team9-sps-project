@@ -11,8 +11,8 @@
         "default_icon": "imagesForExtension/sustainaBrowseLogo.png"
     },
     "icons":{
-        "logo": "imagesForExtension/sustainaBrowseLogo.png",
-        "with_title": "imagesForExtension/sustainaBrowse.png"
+        "260": "imagesForExtension/sustainaBrowseLogo.png",
+        "500": "imagesForExtension/sustainaBrowse.png"
     },
     "manifest_version": 2
 }
