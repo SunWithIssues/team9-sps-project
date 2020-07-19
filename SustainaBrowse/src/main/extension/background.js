@@ -1,4 +1,4 @@
-chrome.runtime.onInstalled.addListener(
+chrome.runtime.onInstalled.addListener('DOMContentLoaded',
     function addRandomTip() {
         const tips = [
             'You miss 100% of the shots you don\'t take', 
