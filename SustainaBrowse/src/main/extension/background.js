@@ -1,9 +1,5 @@
 chrome.browserAction.onClicked.addListener(getRandomTip);
     
-function test(){
-    console.log("testing");
-}
-    
 function getRandomTip() {
     const tips = [
         'You miss 100% of the shots you don\'t take', 
@@ -15,8 +11,8 @@ function getRandomTip() {
     const tip = tips[Math.floor(Math.random() * tips.length)];
     console.log(tip);
     // Add it to the page.
-    //const tipContainer = document.getElementById('tip-container');
-    //tipContainer.innerText = tip;
+    const tipContainer = document.getElementById('tip-container');
+    tipContainer.innerText = tip;
 }
   
   
