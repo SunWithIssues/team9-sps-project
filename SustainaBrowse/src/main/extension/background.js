@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener(
-    function () {
+    function (activeTab) {
         console.log("testing")
         const tips = [
             'You miss 100% of the shots you don\'t take', 
