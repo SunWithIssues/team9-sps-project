@@ -10,7 +10,7 @@
         "default_title": "Click here to open menu",
         "default_icon": "imagesForExtension/sustainaBrowseLogo.png"
     },
-    "icon":{
+    "icons":{
         "logo": "imagesForExtension/sustainaBrowseLogo.png",
         "with_title": "imagesForExtension/sustainaBrowse.png"
     },
