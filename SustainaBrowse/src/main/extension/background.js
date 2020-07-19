@@ -13,10 +13,10 @@ function getRandomTip() {
 
     // Pick a random greeting.
     const tip = tips[Math.floor(Math.random() * tips.length)];
-
+    console.log(tip);
     // Add it to the page.
-    const tipContainer = document.getElementById('tip-container');
-    tipContainer.innerText = tip;
+    //const tipContainer = document.getElementById('tip-container');
+    //tipContainer.innerText = tip;
 }
   
   
