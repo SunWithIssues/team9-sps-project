@@ -1,4 +1,4 @@
-document.getElementById("tipButton").addEventListener("click", getRandomTip());
+document.getElementById("tipButton").addListener("click", getRandomTip());
 
 function getRandomTip() {
     const tips = [
