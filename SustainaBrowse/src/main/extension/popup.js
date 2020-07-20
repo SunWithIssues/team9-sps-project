@@ -1,4 +1,4 @@
-//document.getElementById("tipButton").addListener("click", getRandomTip());
+document.getElementById("tip-button").addListener("click", getRandomTip());
 
 console.log(document);
 
