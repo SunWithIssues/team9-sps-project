@@ -1,6 +1,8 @@
-document.getElementById("tip-button").addListener("click", getRandomTip());
-
 console.log(document);
+var element=document.getElementById("tip-button");
+console.log(element);
+
+element.addListener("click", getRandomTip());
 
 function getRandomTip() {
     const tips = [
