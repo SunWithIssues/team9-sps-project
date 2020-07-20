@@ -1,14 +1,15 @@
-console.log(document);
-var element=document.querySelector("button");
-console.log(element);
+//console.log(document);
+//var element=document.getElementById("button");
+//console.log(element);
 
-element.addListener("click", getRandomTip());
+document.addEventListener("DOMContentLoaded", getRandomTip);
 
 function getRandomTip() {
     const tips = [
         'You miss 100% of the shots you don\'t take', 
         'Sometimes it\'s the very people no one imagines anything of that do the things no one can imagine', 
-        'You have to be odd to be number one', 'Why fit in when you were born to stand out'
+        'You have to be odd to be number one', 
+        'Why fit in when you were born to stand out'
     ];
 
     // Pick a random greeting.
