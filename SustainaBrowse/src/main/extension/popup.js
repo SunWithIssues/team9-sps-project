@@ -1,5 +1,7 @@
 document.getElementById("tipButton").addListener("click", getRandomTip());
 
+console.log(document);
+
 function getRandomTip() {
     const tips = [
         'You miss 100% of the shots you don\'t take', 
