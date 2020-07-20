@@ -1,6 +1,6 @@
-chrome.browserAction.onClicked.addListener(getRandomTip);
+//chrome.browserAction.onClicked.addListener(getRandomTip);
     
-function getRandomTip() {
+/*function getRandomTip() {
     const tips = [
         'You miss 100% of the shots you don\'t take', 
         'Sometimes it\'s the very people no one imagines anything of that do the things no one can imagine', 
@@ -13,6 +13,6 @@ function getRandomTip() {
     // Add it to the page.
     const tipContainer = document.getElementById('tip-container');
     tipContainer.innerText = tip;
-}
+}*/
   
   
