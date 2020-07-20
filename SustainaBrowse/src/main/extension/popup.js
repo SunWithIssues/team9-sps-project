@@ -1,5 +1,5 @@
 console.log(document);
-var element=document.document.querySelector("button");
+var element=document.querySelector("button");
 console.log(element);
 
 element.addListener("click", getRandomTip());
