@@ -38,17 +38,17 @@ backend_info = {
      sizeOfLinks = backend_info["links"].length;
      size = sizeOfTips + sizeOfLinks;
      if(category == 2){
-        randomNum = Math.random * sizeOfLinks;
+        randomNum = Math.random() * sizeOfLinks;
         // TODO: Exception needs to be worked on
-        if(exception < 0){continue;}
+        if(exception < 0){}
         else if(randomNum == exception && randomNum > 0){ randomNum = 0; }
         else if(randomNum == exception){randomNum = 1;} 
         return [backend_info["links"][randomNum]["link"], size-sizeOfLinks]
      }
      else{ // default is tip, because we have more of them
-        randomNum = Math.random * sizeOfTips;
+        randomNum = Math.random() * sizeOfTips;
         // TODO: Exception needs to be worked on
-        if(exception < 0){continue;}
+        if(exception < 0){}
         else if(randomNum == exception && randomNum > 0){ randomNum = 0; }
         else if(randomNum == exception){randomNum = 1;}
         return [backend_info["tips"][randomNum], randomNum]
