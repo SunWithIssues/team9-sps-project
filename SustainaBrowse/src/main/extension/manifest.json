@@ -10,6 +10,7 @@
         "default_icon": "imagesForExtension/sustainaBrowseLogo.png"
     },
     "icons":{
+        "128": "imagesForExtension/sustainaBrowseSmallLogo.png",
         "260": "imagesForExtension/sustainaBrowseLogo.png",
         "500": "imagesForExtension/sustainaBrowse.png"
     },
